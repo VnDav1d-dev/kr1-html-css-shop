@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Контактная информация учебного магазина СтройФорма.">
+    <title>Контакты — СтройФорма</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body id="top">
+    <header class="site-header">
+        <div class="container site-header__inner"><a class="brand" href="index.html"
+                aria-label="СтройФорма — главная"><span class="brand__mark">▦</span><span>СТРОЙ<span
+                        class="brand__accent">ФОРМА</span><small>материалы для больших идей</small></span></a>
+            <nav class="site-nav" aria-label="Основное меню">
+                <ul class="site-nav__list">
+                    <li><a class="site-nav__link " href="index.html">Главная</a></li>
+                    <li><a class="site-nav__link " href="catalog.html">Каталог</a></li>
+                    <li><a class="site-nav__link " href="product.html">Товар</a></li>
+                    <li><a class="site-nav__link " href="order.html">Заявка</a></li>
+                    <li><a class="site-nav__link site-nav__link--active" aria-current="page"
+                            href="contacts.html">Контакты</a></li>
+                </ul>
+            </nav><a class="button button--small" href="order.html">Оставить заявку ↗</a>
+        </div>
+    </header>
+    <main>
+        <section class="page-intro page-intro--short">
+            <div class="container"><span class="eyebrow">НА СВЯЗИ</span>
+                <h1>Давайте <em>обсудим.</em></h1>
+                <p>Вопросы о товарах, характеристиках и подборе материалов? Мы предусмотрели удобный сценарий обращения.
+                </p>
+            </div>
+        </section>
+        <section class="section">
+            <div class="container contact-grid">
+                <div class="contact-panel"><span class="eyebrow">КОНТАКТНАЯ ИНФОРМАЦИЯ</span>
+                    <h2>Всегда на связи</h2>
+                    <div class="contact-line"><span>01 / Телефон</span><strong>+7 (495)
+                            000-00-00</strong><small>Демонстрационный номер</small></div>
+                    <div class="contact-line"><span>02 /
+                            Почта</span><strong>hello@stroyforma.example</strong><small>Демонстрационный адрес</small>
+                    </div>
+                    <div class="contact-line"><span>03 / График</span><strong>Пн–Сб, 09:00–19:00</strong><small>Пример
+                            режима работы</small></div>
+                    <div class="contact-line"><span>04 / Адрес</span><strong>Москва, учебный
+                            шоурум</strong><small>Вымышленная локация</small></div>
+                </div>
+                <aside class="contact-highlight"><span class="eyebrow eyebrow--light">НУЖНА КОНСУЛЬТАЦИЯ?</span>
+                    <h2>Каждый большой проект начинается с вопроса.</h2>
+                    <p>Опишите вашу задачу в форме заявки — и посмотрите, как устроен сценарий обращения.</p><a
+                        class="button button--cream" href="order.html">Перейти к форме ↗</a><a
+                        class="contact-highlight__link" href="#consultation">Быстрая консультация ↗</a>
+                </aside>
+            </div>
+        </section>
+        <section class="section section--tinted">
+            <div class="container">
+                <div class="section-heading">
+                    <div><span class="eyebrow">ВОПРОСЫ И ОТВЕТЫ</span>
+                        <h2>Часто спрашивают</h2>
+                    </div>
+                </div>
+                <div class="faq">
+                    <details>
+                        <summary>Можно ли оформить заказ на сайте?</summary>
+                        <p>Это учебный проект: форма демонстрирует интерфейс заявки, но не отправляет данные в магазин.
+                        </p>
+                    </details>
+                    <details>
+                        <summary>Работают ли фильтры каталога?</summary>
+                        <p>Категории представлены статическими ссылками и якорями. Полноценная фильтрация может быть
+                            добавлена в следующей работе с JavaScript.</p>
+                    </details>
+                    <details>
+                        <summary>Откуда цены на товары?</summary>
+                        <p>Все цены, характеристики и контакты используются только как демонстрационные примеры.</p>
+                    </details>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="site-footer" id="contacts">
+        <div class="container footer-grid">
+            <div><a class="brand brand--footer" href="index.html">▦ СТРОЙФОРМА</a>
+                <p>Надёжные материалы для ремонта, строительства и новых начинаний.</p>
+            </div>
+            <div><strong>Навигация</strong><a href="catalog.html">Каталог</a><a
+                    href="index.html#advantages">Преимущества</a><a href="index.html#popular">Популярное</a></div>
+            <div><strong>Связаться</strong><a href="contacts.html">Контакты</a><a href="order.html">Оставить
+                    заявку</a><span>Пн–Сб, 09:00–19:00</span></div>
+        </div>
+        <div class="container footer-bottom">© 2026 СтройФорма · Учебный демонстрационный проект <a href="#top">Наверх
+                ↑</a></div>
+    </footer><a class="back-top" href="#top" aria-label="Вернуться наверх">↑</a>
+    <div class="modal" id="consultation" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+        <div class="modal__panel"><a href="#close" class="modal__close" aria-label="Закрыть окно">×</a><span
+                class="eyebrow">Нужна помощь?</span>
+            <h2 id="modal-title">Подберём материалы</h2>
+            <p>Расскажите о задаче — поможем составить список необходимых материалов.</p><a href="order.html"
+                class="button">Перейти к заявке ↗</a>
+        </div><a href="#close" class="modal__overlay" aria-label="Закрыть окно"></a>
+    </div>
+</body>
+
+</html>

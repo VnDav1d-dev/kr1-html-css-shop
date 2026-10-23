@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Демонстрационное подтверждение заполнения формы.">
+    <title>Подтверждение — СтройФорма</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body id="top">
+    <header class="site-header">
+        <div class="container site-header__inner"><a class="brand" href="index.html"
+                aria-label="СтройФорма — главная"><span class="brand__mark">▦</span><span>СТРОЙ<span
+                        class="brand__accent">ФОРМА</span><small>материалы для больших идей</small></span></a>
+            <nav class="site-nav" aria-label="Основное меню">
+                <ul class="site-nav__list">
+                    <li><a class="site-nav__link " href="index.html">Главная</a></li>
+                    <li><a class="site-nav__link " href="catalog.html">Каталог</a></li>
+                    <li><a class="site-nav__link " href="product.html">Товар</a></li>
+                    <li><a class="site-nav__link site-nav__link--active" aria-current="page"
+                            href="order.html">Заявка</a></li>
+                    <li><a class="site-nav__link " href="contacts.html">Контакты</a></li>
+                </ul>
+            </nav><a class="button button--small" href="order.html">Оставить заявку ↗</a>
+        </div>
+    </header>
+    <main>
+        <section class="section success">
+            <div class="container">
+                <div class="success__icon">✓</div><span class="eyebrow">ДЕМОНСТРАЦИЯ ОТПРАВКИ</span>
+                <h1>Форма заполнена!</h1>
+                <p>Это учебный макет: заявка не была отправлена и не сохранялась на сервере. Спасибо за тестирование
+                    интерфейса.</p><a href="index.html" class="button">Вернуться на главную ↗</a>
+            </div>
+        </section>
+    </main>
+    <footer class="site-footer" id="contacts">
+        <div class="container footer-grid">
+            <div><a class="brand brand--footer" href="index.html">▦ СТРОЙФОРМА</a>
+                <p>Надёжные материалы для ремонта, строительства и новых начинаний.</p>
+            </div>
+            <div><strong>Навигация</strong><a href="catalog.html">Каталог</a><a
+                    href="index.html#advantages">Преимущества</a><a href="index.html#popular">Популярное</a></div>
+            <div><strong>Связаться</strong><a href="contacts.html">Контакты</a><a href="order.html">Оставить
+                    заявку</a><span>Пн–Сб, 09:00–19:00</span></div>
+        </div>
+        <div class="container footer-bottom">© 2026 СтройФорма · Учебный демонстрационный проект <a href="#top">Наверх
+                ↑</a></div>
+    </footer><a class="back-top" href="#top" aria-label="Вернуться наверх">↑</a>
+    <div class="modal" id="consultation" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+        <div class="modal__panel"><a href="#close" class="modal__close" aria-label="Закрыть окно">×</a><span
+                class="eyebrow">Нужна помощь?</span>
+            <h2 id="modal-title">Подберём материалы</h2>
+            <p>Расскажите о задаче — поможем составить список необходимых материалов.</p><a href="order.html"
+                class="button">Перейти к заявке ↗</a>
+        </div><a href="#close" class="modal__overlay" aria-label="Закрыть окно"></a>
+    </div>
+</body>
+
+</html>
