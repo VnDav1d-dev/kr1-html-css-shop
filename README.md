@@ -51,7 +51,7 @@ HTML5, CSS3, CSS Grid, Flexbox, CSS custom properties, БЭМ. Без CSS-фре
 
 ## GitHub Pages
 
-После публикации укажите здесь фактический адрес: **[]**.
+После публикации укажите здесь фактический адрес: **[https://vndav1d-dev.github.io/kr1-html-css-shop/]**.
 
 ## Данные студента
 
