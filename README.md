@@ -51,9 +51,7 @@ HTML5, CSS3, CSS Grid, Flexbox, CSS custom properties, БЭМ. Без CSS-фре
 
 ## GitHub Pages
 
-После публикации укажите здесь фактический адрес: **[добавить ссылку после публикации]**.
-
-Публикация: создать репозиторий `kr1-html-css-shop`, загрузить содержимое папки в корень репозитория, затем Settings → Pages → Deploy from a branch → main / (root). Пример адреса: `https://USERNAME.github.io/kr1-html-css-shop/`.
+После публикации укажите здесь фактический адрес: **[]**.
 
 ## Данные студента
 
